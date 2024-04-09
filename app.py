@@ -1,6 +1,16 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
+
+storage = []
+
+@app.route('/predict', methods=['POST'])
+def post():
+    formData = dict(request.form)
+    storage.append(formData)
+    print(storage)
+
+    return render_template('index.html')
 
 @app.route("/")
 def index():
