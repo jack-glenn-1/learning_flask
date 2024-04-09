@@ -1,4 +1,9 @@
 {% extends 'base.html' %} {% block body %}
-    <h1>About Us</h1>
+    <h1>About Us Page</h1>
     <p>Pair programming group: Jack Glenn and Landon Glenn</p>
+{% endblock %}
+
+
+{% block body %}
+<img src="{{ url_for('static', filename='pairprogramming.jpeg')}}" alt="partner" width="500px">
 {% endblock %}
