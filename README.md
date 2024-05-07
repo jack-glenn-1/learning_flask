@@ -12,7 +12,7 @@ Basic Python Flask web application where users can predict their salary using an
 ---
 
 
-| ![Screenshot](https://github.com/jack-glenn-1/learning_flask/screenshot.png) |
+| ![Screenshot](https://github.com/jack-glenn-1/learning_flask/blob/main/screenshot.png)|
 |-|
 
 ---
